@@ -2,7 +2,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ChevronRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const HeroSection: React.FC = () => {
   return (
@@ -53,17 +54,20 @@ const HeroSection: React.FC = () => {
               <Button 
                 size="lg" 
                 className="bg-burger-gold hover:bg-burger-gold/90 text-burger-black text-lg px-8 py-6 rounded-full transition-all hover:scale-105 font-semibold"
+                onClick={() => window.open('https://www.ifood.com.br', '_blank')}
               >
                 Fazer Pedido
-                <ChevronRight className="ml-2 h-5 w-5" />
+                <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="border-burger-white text-burger-white hover:bg-burger-white/10 text-lg px-8 py-6 rounded-full"
-              >
-                Ver Cardápio
-              </Button>
+              <Link to="/menu">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="border-burger-white text-burger-white hover:bg-burger-white/10 text-lg px-8 py-6 rounded-full"
+                >
+                  Ver Cardápio
+                </Button>
+              </Link>
             </motion.div>
           </motion.div>
 
