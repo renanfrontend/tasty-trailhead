@@ -70,7 +70,7 @@ const AboutPage = () => {
                 className="rounded-lg h-full w-full object-cover shadow-lg"
               />
               <div className="absolute -bottom-5 -right-5 bg-burger-gold p-4 rounded-lg text-burger-black font-bold text-xl hidden md:block">
-                Desde 2023
+                Desde 2025
               </div>
             </motion.div>
 
@@ -205,9 +205,9 @@ const AboutPage = () => {
               transition={{ duration: 0.5 }}
             >
               <MapPin className="h-10 w-10 text-burger-gold mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-burger-white mb-2">Área de Entrega</h3>
+              <h3 className="text-xl font-bold text-burger-white mb-2">Localização</h3>
               <p className="text-burger-white/80">
-                Entregamos em toda a região. Consulte o iFood para verificar se sua localização está dentro da nossa área de entrega.
+                KM 28 - Itaim Paulista<br />São Paulo, SP
               </p>
             </motion.div>
 
@@ -270,7 +270,8 @@ const AboutPage = () => {
             <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Button 
                 size="lg" 
-                className="bg-burger-gold hover:bg-burger-gold/90 text-burger-black text-lg px-8 py-6 rounded-full transition-all hover:scale-105"
+                className="bg-burger-red hover:bg-burger-red/90 text-burger-white text-lg px-8 py-6 rounded-full transition-all hover:scale-105"
+                onClick={() => window.open('https://www.ifood.com.br', '_blank')}
               >
                 Pedir no iFood
               </Button>
@@ -278,7 +279,7 @@ const AboutPage = () => {
                 <Button 
                   variant="outline" 
                   size="lg" 
-                  className="border-burger-white text-burger-white hover:bg-burger-white/10 text-lg px-8 py-6 rounded-full"
+                  className="border-burger-gold text-burger-gold hover:bg-burger-gold/10 text-lg px-8 py-6 rounded-full"
                 >
                   Ver Cardápio
                 </Button>

@@ -53,7 +53,7 @@ const AboutSection: React.FC = () => {
               </div>
             </div>
             <div className="absolute -bottom-8 -right-8 bg-burger-gold p-4 rounded-lg text-burger-black font-bold text-xl hidden md:block">
-              Desde 2018
+              Desde 2025
             </div>
           </motion.div>
 
@@ -72,10 +72,10 @@ const AboutSection: React.FC = () => {
             <div className="w-20 h-1 bg-burger-gold mb-6"></div>
 
             <p className="text-burger-white/80 mb-6">
-              Nascemos em 2018 com uma paixão: criar os melhores hambúrgueres artesanais da cidade. Começamos pequenos, com uma cozinha modesta e um sonho grande.
+              Nasceremos em 2025 com uma paixão: criar os melhores hambúrgueres artesanais da cidade. Começaremos pequenos, com uma cozinha modesta e um sonho grande.
             </p>
             <p className="text-burger-white/80 mb-8">
-              Hoje, o UP BURGER é referência em sabor e qualidade. Cada hambúrguer é preparado com ingredientes cuidadosamente selecionados, carnes nobres e um toque especial que só nós temos. Nossa missão é proporcionar momentos de prazer gastronômico inesquecíveis para cada cliente.
+              O UP BURGER será referência em sabor e qualidade. Cada hambúrguer será preparado com ingredientes cuidadosamente selecionados, carnes nobres e um toque especial que só nós temos. Nossa missão é proporcionar momentos de prazer gastronômico inesquecíveis para cada cliente.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
@@ -88,7 +88,7 @@ const AboutSection: React.FC = () => {
             </div>
 
             <Link to="/about">
-              <Button className="bg-burger-gold hover:bg-burger-gold/90 text-burger-black font-medium">
+              <Button className="bg-burger-red hover:bg-burger-red/90 text-burger-white font-medium">
                 Saiba Mais
               </Button>
             </Link>

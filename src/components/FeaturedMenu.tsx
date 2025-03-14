@@ -75,7 +75,7 @@ const FeaturedMenu: React.FC = () => {
           <Link to="/menu">
             <Button 
               variant="outline" 
-              className="border-burger-gold text-burger-gold hover:bg-burger-gold hover:text-burger-black"
+              className="border-burger-gold text-burger-gold hover:bg-burger-gold/10 hover:text-burger-white"
             >
               Ver Cardápio Completo
               <ArrowRight className="ml-2 h-4 w-4" />

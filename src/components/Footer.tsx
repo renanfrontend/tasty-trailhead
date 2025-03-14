@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
               <li className="flex items-start">
                 <MapPin className="mr-3 h-5 w-5 text-burger-gold flex-shrink-0 mt-0.5" />
                 <span className="text-burger-white/80">
-                  Rua dos Hambúrgueres, 123, Centro<br />São Paulo, SP, 01234-567
+                  KM 28 - Itaim Paulista<br />São Paulo, SP
                 </span>
               </li>
               <li className="flex items-center">
