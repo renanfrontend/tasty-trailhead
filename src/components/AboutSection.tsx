@@ -88,7 +88,7 @@ const AboutSection: React.FC = () => {
             </div>
 
             <Link to="/about">
-              <Button className="bg-burger-red hover:bg-burger-red/90 text-burger-white font-medium">
+              <Button className="bg-burger-gold hover:bg-burger-gold/90 text-burger-black font-medium">
                 Saiba Mais
               </Button>
             </Link>

@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, MessageSquare } from 'lucide-react';
+import { ArrowRight, MenuSquare } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const CTASection: React.FC = () => {
@@ -41,7 +41,7 @@ const CTASection: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
               <Button 
                 size="lg" 
-                className="bg-burger-red hover:bg-burger-red/90 text-burger-white text-lg px-8 py-6 rounded-full transition-all hover:scale-105"
+                className="bg-burger-gold hover:bg-burger-gold/90 text-burger-black text-lg px-8 py-6 rounded-full transition-all hover:scale-105 font-semibold"
                 onClick={() => window.open('https://www.ifood.com.br', '_blank')}
               >
                 Fazer Pedido
@@ -51,9 +51,9 @@ const CTASection: React.FC = () => {
                 <Button 
                   variant="outline" 
                   size="lg" 
-                  className="border-burger-gold text-burger-gold hover:bg-burger-gold/10 text-lg px-8 py-6 rounded-full"
+                  className="border-burger-white text-burger-white hover:bg-burger-white/10 text-lg px-8 py-6 rounded-full"
                 >
-                  <MessageSquare className="mr-2 h-5 w-5" />
+                  <MenuSquare className="mr-2 h-5 w-5" />
                   Ver Cardápio
                 </Button>
               </Link>
